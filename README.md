@@ -13,7 +13,7 @@ Each folder has the name:
  For this example, the folder name should be ``YouTube-1.0-2.0''
 
 
-## Format for Labeled Text Matching (starts with text-* prefix):
+## Format for Labeled Text Matching (all labeled texts are stored at labeled-text.csv)
 
 Example (Each text in each version should have an text id starting from 1, a deleted texts has id 0):
 
@@ -23,14 +23,19 @@ Old version: 1.0
 
 New version: 2.0
 
-Text Id in Old version: 1
+Columns in labeled-text.csv:
 
-The correct Text Id in New version: 1
+Website name,Old version,New version, Text in Old version,The correct text in New version
+YouTube, 1.0, 2.0,text1,text2
 
-- Each text in the old version then has the name:
-``text-<Website name>-<Old version>-<New version>-old<Text Id in Old version>``
-- Each text in the new version then has the name:
-``text-<Website name>-<Old version>-<New version>-new<The correct Text Id in New version>``
+So, the table will look like:
+
+| Website name | Old version | New version| Text in Old version |The correct text in New version |
+| --- | --- | --- | --- | --- |
+| YouTube | 1.0 | 2.0 |text1 | text2 |
+
+
+
 
 
 ## Labeled Image matching (starts with image-* prefix):
