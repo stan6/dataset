@@ -15,7 +15,7 @@ Each folder has the name:
 
 ## Format for Labeled Text Matching (all labeled texts are stored at labeled-text.csv)
 
-Example (Each text in each version should have an text id starting from 1, a deleted texts has id 0):
+Example:
 
 website name: YouTube
 
