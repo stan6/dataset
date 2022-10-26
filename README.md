@@ -53,4 +53,4 @@ The correct Image Id in New version: 2
 - Each image in the new version then has the name:
 ``image-<Website name>-<Old version>-<New version>-new<Image Id in New version>``
 
-For this example, the old image name should be ``image-YouTube-1.0-2.0-old1-new2'' (we specify the correct matching new image in the id for old image to make it easier to search for matching). The correct new image name should be ``image-YouTube-1.0-2.0-new2''.
+For this example, the old image name should be ``image-YouTube-1.0-2.0-old1-new2`` (we specify the correct matching new image in the id for old image to make it easier to search for matching). The correct new image name should be ``image-YouTube-1.0-2.0-new2``.
