@@ -1,5 +1,8 @@
 # uirepair-dataset
 
+
+每个版本所有text的匹配建议放在一个csv文件，而image的匹配要先把每张图存下来
+
 ## Format for the name of the folder for each (old, new) pair:
 website name: YouTube
 
